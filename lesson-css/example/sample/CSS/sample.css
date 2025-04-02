@@ -13,6 +13,10 @@ body{
     margin: 0;
 }
 
-#id1{
+#myId{
     color: blue;
+}
+
+.my-class{
+    color: red;
 }

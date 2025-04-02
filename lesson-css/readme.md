@@ -4,7 +4,10 @@
   -External (CSS file)
 
 *Selector
-  * Simples (tag, id)
+  * Simples (tag, id, class)
+   -tag
+   -id
+   -class
 
 * Hierarchy
 
