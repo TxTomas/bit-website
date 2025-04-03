@@ -11,8 +11,12 @@ footer{
     font-size: 25px;
 }
 
-img{
+.imagen-yo{
     width: 25px;
     height: 25px;
 }
 
+.ig-icon{
+    width: 100px;
+    height: 50px;
+}
