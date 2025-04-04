@@ -12,7 +12,7 @@ header{
     padding: 20px;
 }
 
-.logo, .logo-footer{
+.logo, .logo-footer, .about-me-section{
     display: flex;
     align-items: center;
 }
@@ -42,7 +42,7 @@ a{
     transition: .3s ease;
 }
 
-.my-skills, .contact-me{
+.my-skills, .contact-me, .main-page{
     background-color: #7B7B7B;
     color: #FFFFFF;
     padding: 15px 60px;
@@ -77,6 +77,14 @@ a{
     transform: scale(1.1);
 }
 
+.main-page:hover{
+    background-color: transparent;
+    border: 2px solid #7B7B7B;
+    color: #FFFFFF;
+    transform: scale(1.1);
+}
+
+
 .button-about-me:hover{
     background-color: transparent;
     border: 2px solid #F5A623 ;
@@ -90,7 +98,7 @@ a{
     background-image: url(/Assets/tomas2.jpg);
     position: relative;
     widows: 100%;
-    height: 400px;
+    height: 420px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -109,6 +117,10 @@ footer{
     padding: 20px;
 }
 
+.nav-footer{
+    display: flex;
+}
+
 .wh-logo img, .ig-logo img{
     height: 90px;
 }
@@ -120,4 +132,50 @@ footer{
 
 .menu-options{
     padding-right: 600px;
+}
+
+.about-me-img{
+    height: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 70px;
+}
+
+.about-me-section, .skills1-section, .skills2-section, .skills3-section{
+    padding-left: 70px;
+    padding-right: 70px;
+    border: 5px solid #F5A623;
+    background-color: #7B7B7B;
+    display: flex;
+    align-items: center;
+}
+
+.main-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #FFFFFF;
+}
+
+.about-me-text, .skills-text{
+    font-family: sans-serif;
+    font-size: x-large;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.title-about, .skills-tittle{
+    font-size: 40px;
+    color: #F5A623;
+}
+
+.skill1-img{
+    height: 160px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 70px;
+}
+
+.skills1-section, .skills2-section{
+    border-bottom: 0px solid #F5A623;
 }
