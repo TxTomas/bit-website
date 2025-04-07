@@ -95,7 +95,7 @@ a{
 .banner{
     padding-top: 400px;
     padding-left: 150px;
-    background-image: url(./Assets/tomas2.jpg);
+    background-image: url(../Assets/tomas2.jpg);
     position: relative;
     widows: 100%;
     height: 420px;
