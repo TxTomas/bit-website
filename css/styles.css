@@ -1,3 +1,8 @@
+:root{
+    --primary-color: #1E3A5F;
+}
+
+
 body{
     font-family: sans-serif;
     margin: 0;
@@ -5,12 +10,27 @@ body{
 
 header{
     display: flex;
-    height: 75px;
+    min-height: 75px;
+    background-color: var(--primary-color);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    display: flex;
+    min-height: 80px;
     background-color: #1E3A5F;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
+
 
 .logo, .logo-footer, .about-me-section{
     display: flex;
@@ -23,10 +43,6 @@ header{
     margin-left: 40px;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-}
 
 .about-me, .button-about-me{
     background-color: #F5A623;
@@ -95,27 +111,17 @@ a{
 .banner{
     padding-top: 400px;
     padding-left: 150px;
-    background-image: url(../Assets/tomas2.jpg);
     position: relative;
     widows: 100%;
     height: 420px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #F5A623;
+    background-image: url(../Assets/tomas2.jpg);
 }
 
 .cta-text{
     color: #FFFFFF;
     font-size: 50px;
-}
-
-footer{
-    display: flex;
-    height: 80px;
-    background-color: #1E3A5F;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
 }
 
 .nav-footer{
@@ -179,4 +185,144 @@ footer{
 
 .skills1-section, .skills2-section{
     border-bottom: 0px solid #F5A623;
+}
+
+@media (max-width:1208px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:576px){
+    .my-skills, .contact-me, .main-page, .about-me{
+        padding: 5px 20px;
+        margin-right: 20px;
+    }
+    .cta-text{
+        font-size: 40px;
+    }
+    .banner{
+        padding-left: 70px;
+    }
+    .skills-text, .skills-tittle, .about-me-text{
+        font-size: smaller;
+        font-weight: 200;
+    }
+     .title-about{
+        font-size: 20px;
+    }
+    .about-me-img{
+        height: 200px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+    }
+    .menu{
+        padding-left: 25px;
+        padding-right: 0px;
+        font-size: 20px;
+        font: bold;
+    }
+    .menu-options{
+        padding-right: 25px;
+        font-size: 10px;
+    }
+    .about-me-section{
+        padding-left: 20px;
+    }
+    .main-section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:768px){
+    .my-skills, .contact-me, .main-page, .about-me{
+        padding: 5px 25px;
+        margin-right: 20px;
+    }
+    .cta-text{
+        font-size: 40px;
+    }
+    .banner{
+        padding-left: 70px;
+    }
+    .skills-text, .skills-tittle, .about-me-text{
+        font-size: 16px;
+        font-weight: 200;
+    }
+     .title-about{
+        font-size: 20px;
+        font: bold;
+    }
+    .about-me-img{
+        height: 200px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 50px;
+    }
+    .menu{
+        padding-left: 60px;
+        padding-right: 0px;
+        font-size: 25px;
+        font: bold;
+    }
+    .menu-options{
+        padding-right: 25px;
+        font-size: 15px;
+    }
+    .about-me-section{
+        padding-left: 50px;
+    }
+    .main-section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width:992px){
+    .my-skills, .contact-me, .main-page, .about-me{
+        padding: 5px 35px;
+        margin-right: 20px;
+    }
+    .cta-text{
+        font-size: 40px;
+    }
+    .banner{
+        padding-left: 70px;
+    }
+    .skills-text, .skills-tittle, .about-me-text{
+        font-size: 20px;
+        font-weight: 200;
+    }
+     .title-about{
+        font-size: 30px;
+        font: bold;
+    }
+    .about-me-img{
+        height: 200px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 50px;
+    }
+    .menu{
+        padding-left: 160px;
+        padding-right: 0px;
+        font-size: 30px;
+        font: bold;
+    }
+    .menu-options{
+        padding-right: 25px;
+        font-size: 17px;
+    }
+    .about-me-section{
+        padding-left: 50px;
+    }
+    .main-section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
