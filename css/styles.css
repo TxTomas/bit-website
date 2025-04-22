@@ -42,7 +42,7 @@ footer{
 
 .logo img, .logo-img{
     height: 75px;
-    margin-right: 40px;
+    margin-right: 20px;
     margin-left: 40px;
 }
 
@@ -135,13 +135,13 @@ footer{
     height: 90px;
 }
 
-.menu{
-    padding-left: 200px;
-    padding-right: 0px;
+.menu-footer{
+    padding-left: 75px;
+    background: none;
 }
 
 .menu-options{
-    padding-right: 200px;
+    padding-right: 400px;
 }
 
 .about-me-img{
@@ -207,7 +207,11 @@ footer{
 
 @media (max-width:576px){
     footer{
-        padding: 0;
+        display: flex;
+        min-height: 75px;
+        background-color: #1E3A5F;
+        align-items: center;
+        padding: 2px;
     }
     .my-skills, .contact-me, .main-page, .about-me{
         padding: 5px 20px;
@@ -233,14 +237,15 @@ footer{
         padding-bottom: 20px;
         padding-right: 20px;
     }
-    .menu{
-        padding-left: 0px;
-        padding-right: 0px;
-        font-size: 5px;
-    }
     .menu-options{
         padding-right: 25px;
         font-size: 10px;
+        padding-left: 20px;
+    }
+    .menu-footer{
+        padding-left: 75px;
+        background: none;
+        padding-left: 20px;
     }
     .about-me-section{
         padding-left: 20px;
@@ -250,15 +255,17 @@ footer{
         padding-bottom: 50px;
     }
     .wh-logo img, .ig-logo img{
-        height: 70px;
+        height: 50px;
     }
     .logo img, .logo-img{
-        height: 70px;
-        margin-right: 10px;
-        margin-left: 40px;
+        height: 50px;
+        margin-right: 5px;
     }
     .about-me-text, .title-about{
         font-size: 10px;
+    }
+    .github{
+        padding-left: 20px;
     }
 }
 
