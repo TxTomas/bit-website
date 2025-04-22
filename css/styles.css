@@ -24,11 +24,11 @@ a{
 
 footer{
     display: flex;
-    min-height: 80px;
+    min-height: 75px;
     background-color: #1E3A5F;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 5px;
 }
 
 
