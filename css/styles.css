@@ -196,6 +196,10 @@ footer{
     font-size: large;
 }
 
+.index-main{
+    padding-top: 75px;
+}
+
 @media (max-width:1208px){
     header{
         flex-direction: column;
