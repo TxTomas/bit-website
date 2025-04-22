@@ -197,9 +197,13 @@ footer{
 }
 
 @media (max-width:576px){
+    footer{
+        padding: 0;
+    }
     .my-skills, .contact-me, .main-page, .about-me{
         padding: 5px 20px;
         margin-right: 20px;
+        font-size: 15px;
     }
     .cta-text{
         font-size: 40px;
@@ -221,10 +225,9 @@ footer{
         padding-right: 20px;
     }
     .menu{
-        padding-left: 25px;
+        padding-left: 0px;
         padding-right: 0px;
-        font-size: 20px;
-        font: bold;
+        font-size: 5px;
     }
     .menu-options{
         padding-right: 25px;
@@ -237,12 +240,23 @@ footer{
         padding-top: 50px;
         padding-bottom: 50px;
     }
+    .wh-logo img, .ig-logo img{
+        height: 70px;
+    }
+    .logo img, .logo-img{
+        height: 70px;
+        margin-right: 10px;
+        margin-left: 40px;
+    }
+    .about-me-text, .title-about{
+        font-size: 10px;
+    }
 }
 
 @media (max-width:768px){
     .my-skills, .contact-me, .main-page, .about-me{
         padding: 5px 25px;
-        margin-right: 20px;
+        margin-right: 15px;
     }
     .cta-text{
         font-size: 40px;
@@ -265,7 +279,7 @@ footer{
         padding-right: 50px;
     }
     .menu{
-        padding-left: 60px;
+        padding-left: 30px;
         padding-right: 0px;
         font-size: 25px;
         font: bold;
@@ -309,14 +323,14 @@ footer{
         padding-right: 50px;
     }
     .menu{
-        padding-left: 160px;
+        padding-left: 95px;
         padding-right: 0px;
         font-size: 30px;
         font: bold;
     }
     .menu-options{
-        padding-right: 25px;
         font-size: 17px;
+        padding-right: 15px;
     }
     .about-me-section{
         padding-left: 50px;
