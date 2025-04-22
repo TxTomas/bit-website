@@ -133,12 +133,12 @@ footer{
 }
 
 .menu{
-    padding-left: 500px;
+    padding-left: 200px;
     padding-right: 0px;
 }
 
 .menu-options{
-    padding-right: 500px;
+    padding-right: 200px;
 }
 
 .about-me-img{
@@ -185,6 +185,12 @@ footer{
 
 .skills1-section, .skills2-section{
     border-bottom: 0px solid #F5A623;
+}
+
+.github{
+    padding-right: 50px;
+    font-weight: bold;
+    font-size: large;
 }
 
 @media (max-width:1208px){
